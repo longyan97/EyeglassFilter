@@ -1,6 +1,6 @@
 # Webcam Eyeglass Blur Filter
 
-## This Python program is used in video conferencing to automatically locate and blur your eyeglass areas in video streams in order to prevent inforamtion leakage from eyeglass optical reflections based webcam peeking.    
+## This Python program is used in video conferencing to automatically locate and blur your eyeglass areas in video streams in order to prevent information leakage from eyeglass optical reflections based webcam peeking.    
   
 
 
@@ -14,9 +14,9 @@ The figure demonstrates the application of a real-time defense against webcam pe
 
 # Installation & Usage
 
-The program builds upon the virtual webcam funcitonality provided by [**pyvirtualcam**](https://github.com/letmaik/pyvirtualcam). pyvirtualcam supports virtual webcams in Windows, Linux, and MacOS. Please refer to pyvirtualcam's home page for the setup under different oprating systems. 
+The program builds upon the virtual webcam functionality provided by [**pyvirtualcam**](https://github.com/letmaik/pyvirtualcam). pyvirtualcam supports virtual webcams in Windows, Linux, and MacOS. Please refer to pyvirtualcam's home page for the setup under different operating systems. 
 
-The current blurring funcitonality employs Guassian filters from cv2. When using the program, simply specify the sigma of the filter to adjust the filter strength, as shown in the figure above. 
+The current blurring functionality employs Gaussian filters from cv2. When using the program, simply specify the sigma of the filter to adjust the filter strength, as shown in the figure above. 
 
 
 
